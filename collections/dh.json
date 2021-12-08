@@ -754,7 +754,7 @@
                 }
               }
             },
-            "url": "{{SCHEME}}://{{HOST}}:{{PORT_AUTH}}/{{API}}/{{VERSION}}/{{CTX_AUTH}}/login1"
+            "url": "{{SCHEME}}://{{HOST}}:{{PORT_AUTH}}/{{API}}/{{VERSION}}/{{CTX_AUTH}}/login"
           },
           "response": []
         },
