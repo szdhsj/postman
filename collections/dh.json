@@ -506,115 +506,6 @@
       "id": "1a034494-1fdd-4dea-8129-f4c48751b03c"
     },
     {
-      "name": "02 Misc",
-      "item": [
-        {
-          "name": "七牛",
-          "item": [
-            {
-              "name": "上传文件",
-              "id": "54a94d61-8b39-4159-9d27-9c4a419b96d0",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "formdata",
-                  "formdata": [
-                    {
-                      "key": "token",
-                      "value": "oBq1g3XfJwIoDr08eUMd8uDesH8hqexM_HKuEerb:FQ0W8lC7wN6kllZeGq9WOPGWozU=:eyJjYWxsYmFja0JvZHlUeXBlIjoiYXBwbGljYXRpb24vanNvbiIsInNjb3BlIjoicHViLXRlc3Q6Zi9ISEZYSFZ3NTRhUGxUWmpUaVFveHFXczVjcHUuanBnIiwiY2FsbGJhY2tVcmwiOiJodHRwOi8vdC5jYi5zMy5kaC1kYXRhLmNvbS9rb2RvIiwiZGVhZGxpbmUiOjE2MDU2OTcwOTcsImNhbGxiYWNrQm9keSI6IntcImtleVwiOlwiJChrZXkpXCIsXCJoYXNoXCI6XCIkKGV0YWcpXCIsXCJidWNrZXRcIjpcIiQoYnVja2V0KVwiLFwiZmlsZVNpemVcIjokKGZzaXplKX0ifQ==",
-                      "type": "text"
-                    },
-                    {
-                      "key": "file",
-                      "type": "file",
-                      "src": "/F:/Desktop/1.jpg"
-                    },
-                    {
-                      "key": "key",
-                      "value": "f/HHFXHVw54aPlTZjTiQoxqWs5cpu.jpg",
-                      "type": "text"
-                    },
-                    {
-                      "key": "fileName",
-                      "value": "1.jpg",
-                      "type": "text",
-                      "disabled": true
-                    }
-                  ]
-                },
-                "url": "http://up-z2.qiniup.com/"
-              },
-              "response": []
-            },
-            {
-              "name": "查看错误",
-              "id": "2ce68ee6-5f32-448f-8ac0-08611b1f913b",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "GET",
-                "header": [],
-                "body": {
-                  "mode": "formdata",
-                  "formdata": [
-                    {
-                      "key": "token",
-                      "value": "oBq1g3XfJwIoDr08eUMd8uDesH8hqexM_HKuEerb:FQ0W8lC7wN6kllZeGq9WOPGWozU=:eyJjYWxsYmFja0JvZHlUeXBlIjoiYXBwbGljYXRpb24vanNvbiIsInNjb3BlIjoicHViLXRlc3Q6Zi9ISEZYSFZ3NTRhUGxUWmpUaVFveHFXczVjcHUuanBnIiwiY2FsbGJhY2tVcmwiOiJodHRwOi8vdC5jYi5zMy5kaC1kYXRhLmNvbS9rb2RvIiwiZGVhZGxpbmUiOjE2MDU2OTcwOTcsImNhbGxiYWNrQm9keSI6IntcImtleVwiOlwiJChrZXkpXCIsXCJoYXNoXCI6XCIkKGV0YWcpXCIsXCJidWNrZXRcIjpcIiQoYnVja2V0KVwiLFwiZmlsZVNpemVcIjokKGZzaXplKX0ifQ==",
-                      "type": "text"
-                    },
-                    {
-                      "key": "file",
-                      "type": "file",
-                      "src": "/F:/Desktop/1.jpg"
-                    },
-                    {
-                      "key": "key",
-                      "value": "f/HHFXHVw54aPlTZjTiQoxqWs5cpu.jpg",
-                      "type": "text"
-                    },
-                    {
-                      "key": "fileName",
-                      "value": "1.jpg",
-                      "type": "text",
-                      "disabled": true
-                    }
-                  ]
-                },
-                "url": {
-                  "raw": "http://api.qiniu.com/status/get/prefop?id=tT0AAHCoIvbYT3EW",
-                  "protocol": "http",
-                  "host": [
-                    "api",
-                    "qiniu",
-                    "com"
-                  ],
-                  "path": [
-                    "status",
-                    "get",
-                    "prefop"
-                  ],
-                  "query": [
-                    {
-                      "key": "id",
-                      "value": "tT0AAHCoIvbYT3EW"
-                    }
-                  ]
-                }
-              },
-              "response": []
-            }
-          ],
-          "id": "9f4b1a79-6891-4433-9369-b6a076d5e91c"
-        }
-      ],
-      "id": "b5fd3c5f-2283-4cda-a24c-cb20d754c8bb"
-    },
-    {
       "name": "01 Product",
       "item": [
         {
@@ -1037,6 +928,115 @@
         }
       ],
       "id": "0cb4b1c8-7303-4286-aad5-0b9a9b5eb9a9"
+    },
+    {
+      "name": "02 Misc",
+      "item": [
+        {
+          "name": "七牛",
+          "item": [
+            {
+              "name": "上传文件",
+              "id": "54a94d61-8b39-4159-9d27-9c4a419b96d0",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "oBq1g3XfJwIoDr08eUMd8uDesH8hqexM_HKuEerb:FQ0W8lC7wN6kllZeGq9WOPGWozU=:eyJjYWxsYmFja0JvZHlUeXBlIjoiYXBwbGljYXRpb24vanNvbiIsInNjb3BlIjoicHViLXRlc3Q6Zi9ISEZYSFZ3NTRhUGxUWmpUaVFveHFXczVjcHUuanBnIiwiY2FsbGJhY2tVcmwiOiJodHRwOi8vdC5jYi5zMy5kaC1kYXRhLmNvbS9rb2RvIiwiZGVhZGxpbmUiOjE2MDU2OTcwOTcsImNhbGxiYWNrQm9keSI6IntcImtleVwiOlwiJChrZXkpXCIsXCJoYXNoXCI6XCIkKGV0YWcpXCIsXCJidWNrZXRcIjpcIiQoYnVja2V0KVwiLFwiZmlsZVNpemVcIjokKGZzaXplKX0ifQ==",
+                      "type": "text"
+                    },
+                    {
+                      "key": "file",
+                      "type": "file",
+                      "src": "/F:/Desktop/1.jpg"
+                    },
+                    {
+                      "key": "key",
+                      "value": "f/HHFXHVw54aPlTZjTiQoxqWs5cpu.jpg",
+                      "type": "text"
+                    },
+                    {
+                      "key": "fileName",
+                      "value": "1.jpg",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": "http://up-z2.qiniup.com/"
+              },
+              "response": []
+            },
+            {
+              "name": "查看错误",
+              "id": "2ce68ee6-5f32-448f-8ac0-08611b1f913b",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "oBq1g3XfJwIoDr08eUMd8uDesH8hqexM_HKuEerb:FQ0W8lC7wN6kllZeGq9WOPGWozU=:eyJjYWxsYmFja0JvZHlUeXBlIjoiYXBwbGljYXRpb24vanNvbiIsInNjb3BlIjoicHViLXRlc3Q6Zi9ISEZYSFZ3NTRhUGxUWmpUaVFveHFXczVjcHUuanBnIiwiY2FsbGJhY2tVcmwiOiJodHRwOi8vdC5jYi5zMy5kaC1kYXRhLmNvbS9rb2RvIiwiZGVhZGxpbmUiOjE2MDU2OTcwOTcsImNhbGxiYWNrQm9keSI6IntcImtleVwiOlwiJChrZXkpXCIsXCJoYXNoXCI6XCIkKGV0YWcpXCIsXCJidWNrZXRcIjpcIiQoYnVja2V0KVwiLFwiZmlsZVNpemVcIjokKGZzaXplKX0ifQ==",
+                      "type": "text"
+                    },
+                    {
+                      "key": "file",
+                      "type": "file",
+                      "src": "/F:/Desktop/1.jpg"
+                    },
+                    {
+                      "key": "key",
+                      "value": "f/HHFXHVw54aPlTZjTiQoxqWs5cpu.jpg",
+                      "type": "text"
+                    },
+                    {
+                      "key": "fileName",
+                      "value": "1.jpg",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "http://api.qiniu.com/status/get/prefop?id=tT0AAHCoIvbYT3EW",
+                  "protocol": "http",
+                  "host": [
+                    "api",
+                    "qiniu",
+                    "com"
+                  ],
+                  "path": [
+                    "status",
+                    "get",
+                    "prefop"
+                  ],
+                  "query": [
+                    {
+                      "key": "id",
+                      "value": "tT0AAHCoIvbYT3EW"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
+          "id": "9f4b1a79-6891-4433-9369-b6a076d5e91c"
+        }
+      ],
+      "id": "b5fd3c5f-2283-4cda-a24c-cb20d754c8bb"
     }
   ]
 }
