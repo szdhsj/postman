@@ -6,6 +6,506 @@
   },
   "item": [
     {
+      "name": "00 Shared",
+      "item": [
+        {
+          "name": "DEMO-XX服务",
+          "item": [
+            {
+              "name": "[服务能力]:登录|固证",
+              "id": "c62ae897-8474-483b-84f5-ba94a17a9e76",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": null
+              },
+              "response": []
+            }
+          ],
+          "id": "8555c298-8022-4268-8818-b2c5867f8711"
+        },
+        {
+          "name": "USER-用户服务",
+          "item": [],
+          "id": "f261cbe8-c1e3-42de-9037-c6c808f13065"
+        },
+        {
+          "name": "EVIDENCE-证据服务",
+          "item": [
+            {
+              "name": "证据资源",
+              "item": [
+                {
+                  "name": "证据源文件资源",
+                  "item": [
+                    {
+                      "name": "源文件-列表",
+                      "id": "6e53f0ff-7633-43a1-a892-ca87bffef536",
+                      "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                      },
+                      "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": ""
+                      },
+                      "response": []
+                    },
+                    {
+                      "name": "源文件-详情",
+                      "id": "b7e196ac-62ab-4026-b4cb-9be224288bb8",
+                      "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                      },
+                      "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": ""
+                      },
+                      "response": []
+                    },
+                    {
+                      "name": "源文件-新增",
+                      "id": "25aae52e-3144-4d8a-b12a-99db100fe61b",
+                      "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                      },
+                      "request": {
+                        "method": "POST",
+                        "header": [],
+                        "url": ""
+                      },
+                      "response": []
+                    },
+                    {
+                      "name": "源文件-更新",
+                      "id": "29cce903-0f50-4233-b963-5ace13565a90",
+                      "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                      },
+                      "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "url": ""
+                      },
+                      "response": []
+                    }
+                  ],
+                  "id": "dcbf692c-929f-4392-bd09-722954c5b759"
+                },
+                {
+                  "name": "证据-列表",
+                  "id": "86234fce-82d0-4574-9a98-054bcce32374",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": ""
+                  },
+                  "response": []
+                },
+                {
+                  "name": "证据-新增",
+                  "id": "a2270947-d494-48d1-9697-30a353548e5d",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "POST",
+                    "header": [],
+                    "url": ""
+                  },
+                  "response": []
+                },
+                {
+                  "name": "证据-更新",
+                  "id": "8a27a32b-93d9-4f22-904c-5d986b6ed8ba",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "PUT",
+                    "header": [],
+                    "url": ""
+                  },
+                  "response": []
+                }
+              ],
+              "id": "728a76d6-d876-44a5-905d-699f5bcb3fb4"
+            }
+          ],
+          "id": "f8508d45-4e89-4d2e-bf83-af90da51af65"
+        },
+        {
+          "name": "MSG-消息服务",
+          "item": [],
+          "id": "1c1175b5-7f5c-42da-95f3-ed0ab47b3b38"
+        },
+        {
+          "name": "VERSION-版本服务",
+          "item": [],
+          "id": "c432c611-1794-4d9f-a159-af4659edd8bc"
+        },
+        {
+          "name": "LOG-日志服务",
+          "item": [],
+          "id": "992b6b28-b103-4551-8ef8-c5eeffffdaf5"
+        },
+        {
+          "name": "IAM-认证服务",
+          "item": [],
+          "id": "2b62f1b3-1941-4924-a242-95b739ecaf1b"
+        },
+        {
+          "name": "CMS-内容服务",
+          "item": [],
+          "id": "c1df5a04-d809-45b6-859e-f3d98f4230a2"
+        },
+        {
+          "name": "DEVICE-设备服务",
+          "item": [],
+          "id": "0f0688e7-04ba-4aa0-bff6-ef28565e8397"
+        },
+        {
+          "name": "CFG-配置服务",
+          "item": [],
+          "id": "27f9a6d5-2df1-4f70-b664-ede7a822387f"
+        },
+        {
+          "name": "OSS-存储服务",
+          "item": [],
+          "id": "83f1a3ae-1ef9-4ef1-8491-54cd9c54c1be"
+        },
+        {
+          "name": "CACHE-缓存服务",
+          "item": [],
+          "id": "0380c2a3-7d31-4eb5-b96b-9c83ea9d060b"
+        },
+        {
+          "name": "PAY-支付服务",
+          "item": [],
+          "id": "d19bf6b9-4224-44ed-9916-2627a31dbbe5"
+        },
+        {
+          "name": "AUTH-账号服务",
+          "item": [
+            {
+              "name": "登录：用户名/密码",
+              "id": "8e5c7e8c-e3d6-4b23-af5d-86b7a35525d2",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "value": "10100",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_AUTH}}/{{API}}/{{VERSION}}/{{CTX_AUTH}}/login"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：AK / SK",
+              "id": "4d4e778a-75e0-4f03-a588-1437d841cc73",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"accessKey\": \"yooong\",\r\n    \"secretKey\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/access_token"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：用户名/密码 JWT",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "461b2de9-5865-412d-9aa4-35a6bcdfa822",
+                    "exec": [
+                      "tests['Status code is 200'] = responseCode.code === 200\r",
+                      "\r",
+                      "const responseJSON = JSON.parse(responseBody)\r",
+                      "\r",
+                      "pm.globals.set(\"JsonWebToken\", responseJSON.jwt)"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "id": "40e63d83-1172-433b-b723-7266d24075b6",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {}
+                },
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  },
+                  {
+                    "key": "JWT",
+                    "value": "1",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：手机号",
+              "id": "42b149cf-99ce-41f3-8c45-d0fb9ff9e2a9",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：手机号 JWT",
+              "id": "f2240fa8-997b-4776-ba04-3686ec923ebc",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  },
+                  {
+                    "key": "JWT",
+                    "value": "1",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：微信小程序",
+              "id": "3a60a3b7-0ee0-4b2a-b82c-d3918a1741d7",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：微信小程序 JWT",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "d1b5396a-5dd0-4f29-b8d5-5a53e92c1c94",
+                    "exec": [
+                      "tests['Status code is 200'] = responseCode.code === 200\r",
+                      "\r",
+                      "if(responseCode.code === 200) {\r",
+                      "    const responseJSON = JSON.parse(responseBody)\r",
+                      "\r",
+                      "    pm.globals.set(\"JsonWebToken\", responseJSON.jwt)\r",
+                      "}"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "id": "c8cf91d2-cd71-4b6b-a738-03e10a6d82e8",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  },
+                  {
+                    "key": "JWT",
+                    "value": "1",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"code\": \"yooong\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/wxmp_login"
+              },
+              "response": []
+            },
+            {
+              "name": "登录：微信扫码",
+              "id": "e2ed665b-8b89-4d5a-b9ad-eb37d15399f3",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "type": "text",
+                    "value": "10100"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
+              },
+              "response": []
+            },
+            {
+              "name": "验证码",
+              "id": "cd79d5c8-4224-4ef4-aac3-2cdfae231d33",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "System",
+                    "value": "10100",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
+              },
+              "response": []
+            }
+          ],
+          "id": "40780618-e9fc-4003-979a-4a5b53632f7d"
+        }
+      ],
+      "id": "1a034494-1fdd-4dea-8129-f4c48751b03c"
+    },
+    {
       "name": "02 Misc",
       "item": [
         {
@@ -537,506 +1037,6 @@
         }
       ],
       "id": "0cb4b1c8-7303-4286-aad5-0b9a9b5eb9a9"
-    },
-    {
-      "name": "00 Shared",
-      "item": [
-        {
-          "name": "DEMO-XX服务",
-          "item": [
-            {
-              "name": "[服务能力]:登录|固证",
-              "id": "c62ae897-8474-483b-84f5-ba94a17a9e76",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "GET",
-                "header": [],
-                "url": null
-              },
-              "response": []
-            }
-          ],
-          "id": "8555c298-8022-4268-8818-b2c5867f8711"
-        },
-        {
-          "name": "USER-用户服务",
-          "item": [],
-          "id": "f261cbe8-c1e3-42de-9037-c6c808f13065"
-        },
-        {
-          "name": "EVIDENCE-证据服务",
-          "item": [
-            {
-              "name": "证据资源",
-              "item": [
-                {
-                  "name": "证据源文件资源",
-                  "item": [
-                    {
-                      "name": "源文件-列表",
-                      "id": "6e53f0ff-7633-43a1-a892-ca87bffef536",
-                      "protocolProfileBehavior": {
-                        "disableBodyPruning": true
-                      },
-                      "request": {
-                        "method": "GET",
-                        "header": [],
-                        "url": ""
-                      },
-                      "response": []
-                    },
-                    {
-                      "name": "源文件-详情",
-                      "id": "b7e196ac-62ab-4026-b4cb-9be224288bb8",
-                      "protocolProfileBehavior": {
-                        "disableBodyPruning": true
-                      },
-                      "request": {
-                        "method": "GET",
-                        "header": [],
-                        "url": ""
-                      },
-                      "response": []
-                    },
-                    {
-                      "name": "源文件-新增",
-                      "id": "25aae52e-3144-4d8a-b12a-99db100fe61b",
-                      "protocolProfileBehavior": {
-                        "disableBodyPruning": true
-                      },
-                      "request": {
-                        "method": "POST",
-                        "header": [],
-                        "url": ""
-                      },
-                      "response": []
-                    },
-                    {
-                      "name": "源文件-更新",
-                      "id": "29cce903-0f50-4233-b963-5ace13565a90",
-                      "protocolProfileBehavior": {
-                        "disableBodyPruning": true
-                      },
-                      "request": {
-                        "method": "PUT",
-                        "header": [],
-                        "url": ""
-                      },
-                      "response": []
-                    }
-                  ],
-                  "id": "dcbf692c-929f-4392-bd09-722954c5b759"
-                },
-                {
-                  "name": "证据-列表",
-                  "id": "86234fce-82d0-4574-9a98-054bcce32374",
-                  "protocolProfileBehavior": {
-                    "disableBodyPruning": true
-                  },
-                  "request": {
-                    "method": "GET",
-                    "header": [],
-                    "url": ""
-                  },
-                  "response": []
-                },
-                {
-                  "name": "证据-新增",
-                  "id": "a2270947-d494-48d1-9697-30a353548e5d",
-                  "protocolProfileBehavior": {
-                    "disableBodyPruning": true
-                  },
-                  "request": {
-                    "method": "POST",
-                    "header": [],
-                    "url": ""
-                  },
-                  "response": []
-                },
-                {
-                  "name": "证据-更新",
-                  "id": "8a27a32b-93d9-4f22-904c-5d986b6ed8ba",
-                  "protocolProfileBehavior": {
-                    "disableBodyPruning": true
-                  },
-                  "request": {
-                    "method": "PUT",
-                    "header": [],
-                    "url": ""
-                  },
-                  "response": []
-                }
-              ],
-              "id": "728a76d6-d876-44a5-905d-699f5bcb3fb4"
-            }
-          ],
-          "id": "f8508d45-4e89-4d2e-bf83-af90da51af65"
-        },
-        {
-          "name": "MSG-消息服务",
-          "item": [],
-          "id": "1c1175b5-7f5c-42da-95f3-ed0ab47b3b38"
-        },
-        {
-          "name": "VERSION-版本服务",
-          "item": [],
-          "id": "c432c611-1794-4d9f-a159-af4659edd8bc"
-        },
-        {
-          "name": "LOG-日志服务",
-          "item": [],
-          "id": "992b6b28-b103-4551-8ef8-c5eeffffdaf5"
-        },
-        {
-          "name": "IAM-认证服务",
-          "item": [],
-          "id": "2b62f1b3-1941-4924-a242-95b739ecaf1b"
-        },
-        {
-          "name": "CMS-内容服务",
-          "item": [],
-          "id": "c1df5a04-d809-45b6-859e-f3d98f4230a2"
-        },
-        {
-          "name": "DEVICE-设备服务",
-          "item": [],
-          "id": "0f0688e7-04ba-4aa0-bff6-ef28565e8397"
-        },
-        {
-          "name": "CFG-配置服务",
-          "item": [],
-          "id": "27f9a6d5-2df1-4f70-b664-ede7a822387f"
-        },
-        {
-          "name": "OSS-存储服务",
-          "item": [],
-          "id": "83f1a3ae-1ef9-4ef1-8491-54cd9c54c1be"
-        },
-        {
-          "name": "CACHE-缓存服务",
-          "item": [],
-          "id": "0380c2a3-7d31-4eb5-b96b-9c83ea9d060b"
-        },
-        {
-          "name": "PAY-支付服务",
-          "item": [],
-          "id": "d19bf6b9-4224-44ed-9916-2627a31dbbe5"
-        },
-        {
-          "name": "AUTH-账号服务",
-          "item": [
-            {
-              "name": "登录：用户名/密码",
-              "id": "8e5c7e8c-e3d6-4b23-af5d-86b7a35525d2",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "value": "10100",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_AUTH}}/{{API}}/{{VERSION}}/{{CTX_AUTH}}/login"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：AK / SK",
-              "id": "4d4e778a-75e0-4f03-a588-1437d841cc73",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"accessKey\": \"yooong\",\r\n    \"secretKey\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/access_token"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：用户名/密码 JWT",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "461b2de9-5865-412d-9aa4-35a6bcdfa822",
-                    "exec": [
-                      "tests['Status code is 200'] = responseCode.code === 200\r",
-                      "\r",
-                      "const responseJSON = JSON.parse(responseBody)\r",
-                      "\r",
-                      "pm.globals.set(\"JsonWebToken\", responseJSON.jwt)"
-                    ],
-                    "type": "text/javascript"
-                  }
-                }
-              ],
-              "id": "40e63d83-1172-433b-b723-7266d24075b6",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "auth": {
-                  "type": "bearer",
-                  "bearer": {}
-                },
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  },
-                  {
-                    "key": "JWT",
-                    "value": "1",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：手机号",
-              "id": "42b149cf-99ce-41f3-8c45-d0fb9ff9e2a9",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：手机号 JWT",
-              "id": "f2240fa8-997b-4776-ba04-3686ec923ebc",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  },
-                  {
-                    "key": "JWT",
-                    "value": "1",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：微信小程序",
-              "id": "3a60a3b7-0ee0-4b2a-b82c-d3918a1741d7",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：微信小程序 JWT",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "d1b5396a-5dd0-4f29-b8d5-5a53e92c1c94",
-                    "exec": [
-                      "tests['Status code is 200'] = responseCode.code === 200\r",
-                      "\r",
-                      "if(responseCode.code === 200) {\r",
-                      "    const responseJSON = JSON.parse(responseBody)\r",
-                      "\r",
-                      "    pm.globals.set(\"JsonWebToken\", responseJSON.jwt)\r",
-                      "}"
-                    ],
-                    "type": "text/javascript"
-                  }
-                }
-              ],
-              "id": "c8cf91d2-cd71-4b6b-a738-03e10a6d82e8",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  },
-                  {
-                    "key": "JWT",
-                    "value": "1",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"code\": \"yooong\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/wxmp_login"
-              },
-              "response": []
-            },
-            {
-              "name": "登录：微信扫码",
-              "id": "e2ed665b-8b89-4d5a-b9ad-eb37d15399f3",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "type": "text",
-                    "value": "10100"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
-              },
-              "response": []
-            },
-            {
-              "name": "验证码",
-              "id": "cd79d5c8-4224-4ef4-aac3-2cdfae231d33",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "System",
-                    "value": "10100",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\": \"yooong\",\r\n    \"password\": \"123456\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{SCHEME}}://{{HOST}}:{{PORT_ACC}}/{{RESTAPI}}/{{VERSION}}/{{APP_ACC}}/login"
-              },
-              "response": []
-            }
-          ],
-          "id": "40780618-e9fc-4003-979a-4a5b53632f7d"
-        }
-      ],
-      "id": "1a034494-1fdd-4dea-8129-f4c48751b03c"
     }
   ]
 }
